@@ -79,7 +79,6 @@ const config = {
         },
         items: [
           { to: '/', label: 'AI Products', position: 'left' },
-          { to: '/ai_news', label: 'AI News', position: 'left' },
         ],
       },
       footer: {
