@@ -36,9 +36,15 @@ const config = {
         blog: {
           showReadingTime: true,
           routeBasePath: '/',
+          blogSidebarTitle: 'AI Product Ratings',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        gtag: {
+          trackingID: 'G-XQ5CPCMNL5',
+          anonymizeIP: false,
         },
       }),
     ],
