@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ReadHub.ai',
-  tagline: 'read hub',
+  title: 'ReadHub',
+  tagline: 'Read Most Valuable AI Infos',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
