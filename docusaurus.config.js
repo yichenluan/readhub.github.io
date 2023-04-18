@@ -46,20 +46,17 @@ const config = {
           trackingID: 'G-XQ5CPCMNL5',
           anonymizeIP: false,
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       }),
     ],
   ],
 
   plugins: [
-    [
-      '@docusaurus/plugin-sitemap',
-      {
-        changefreq: 'weekly',
-        priority: 0.5,
-        ignorePatterns: ['/tags/**'],
-        filename: 'sitemap.xml',
-      },
-    ],
     [
       '@docusaurus/plugin-content-blog',
       {
