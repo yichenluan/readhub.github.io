@@ -52,6 +52,15 @@ const config = {
 
   plugins: [
     [
+      '@docusaurus/plugin-sitemap',
+      {
+        changefreq: 'weekly',
+        priority: 0.5,
+        ignorePatterns: ['/tags/**'],
+        filename: 'sitemap.xml',
+      },
+    ],
+    [
       '@docusaurus/plugin-content-blog',
       {
         /**
@@ -95,6 +104,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      metadata: [{ name: 'keywords', content: 'ai, blog, chatgpt, product' }],
     }),
 
 };
